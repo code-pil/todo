@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Baloo+Bhai+2:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+}
+
+body{
+    background-color: #041562;
+}
+
+.marg{
+    margin: 10px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 2vh;
+    background-color: #11468F;
+    color: #DA1212;
+    border-radius: 10px;
+}
+
+.navHeading{
+    margin-left: 4vw;
+}
+
+.searchBox{
+    border: none;
+    border-radius: 10px;
+    width: 20vw;
+    height: 5vh;
+    text-align: center;
+    background-color: #0415629a;
+    color: #EEEEEE;
+    font-size: 1.05em;
+}
+
+.add-notes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textArea{
+    width: 60vw;
+    border: none;
+    border-radius: 10px;
+    text-align: center  ;
+    font-size: 1.05em;
+    background-color: #11468F;
+    color: #EEEEEE;
+
+}
+
+
+.icon{
+    transform: scale(2);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 5vw;
+    background-color: #DA1212;
+    color: #EEEEEE;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.btn:hover:active{
+    background-color: #74ff3b;
+    color: #11468F;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#addBtn{
+    background-color: #74ff3b;
+}
+
+#addBtn:active{
+    background-color: #DA1212;
+}
+
+#add{
+    color: #041562;
+}
+
+#add:active{
+    color: #EEEEEE;
+}
+
+hr{
+    margin: auto;
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    width: 90vw;
+    height: 1px;
+}
+
+.List{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.padd-left{
+    padding-left: 3vw;
+}
+
+.padd-right{
+    padding-right: 1vw;
+}
+
+h3,h4{
+    font-weight: normal;
+    padding: 10px;
+}
+
+h4{
+    font-size: 1.05em;
+    color: #EEEEEE;
+}
+
+.note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    background: #EEEEEE;
+    color: #041562;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

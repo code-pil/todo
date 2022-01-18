@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <title>TO DO</title>
+</head>
+<body>
+    <nav id="nav" class="navbar">
+        <h1 id="navHeading" class="navHeading marg">TO DO</h1>
+        <input type="text" id="searchBox" class="searchBox marg" placeholder="Search">
+    </nav>
+
+    <section class="add-notes" id="add-notes">
+        <textarea name="note" class="marg textArea" id="Area" cols="40" rows="5" placeholder="Write your Task"></textarea>
+        <div class="buttons">
+            <button class="btn marg" id="addBtn"><ion-icon name="add-outline" class="icon" id="add"></ion-icon></button>
+            <button class="btn marg" id="clear"><ion-icon name="trash-outline" class="icon" id="clear"></ion-icon></button>
+        </div>
+    </section>
+    <hr color="#EEEEEE">
+
+    <section class="List" id="List">
+        <div class="note marg" id="note">
+            <h3 class="padd-left">Do this task before GSOC</h3>
+            <div class="icons" id="icons">
+                <ion-icon id="important" class="important-icon padd-right" name="star-outline" onclick="important()"></ion-icon>
+                <ion-icon id="done" class="done-icon padd-right" name="checkmark-done-outline" onclick="done()"></ion-icon>
+                <ion-icon id="delet" class="close-icon padd-right" name="close-outline" onclick="delet()"></ion-icon>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
