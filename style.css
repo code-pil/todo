@@ -157,3 +157,14 @@ h4{
     justify-content: center;
     align-items: center;
 }
+
+.done{
+    background : #74ff3b;
+    color : #11468F;
+}
+
+.important{
+    background : #DA1212;
+    color : #EEEEEE;
+    
+}

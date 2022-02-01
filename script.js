@@ -62,14 +62,12 @@ function delet(id) {
 
 function important(id) {
   let ele = document.getElementById(id);
-  ele.style.background = '#DA1212';
-  ele.style.color = '#EEEEEE';
+  ele.classList.toggle('important');
 }
 
 function done(id) {
     let ele = document.getElementById(id);
-    ele.style.background = '#74ff3b';
-    ele.style.color = '#11468F';
+    ele.classList.toggle('done');
 }
 
 let search = document.getElementById("searchBox");
